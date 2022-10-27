@@ -19,32 +19,14 @@
 			"hashes" : { "07f8b94c8d601a24a1914a1a92bec0e4fafda964" : "0.0.1" }
 		}
 	},
-	"EventSource": {
-		"bowername": [ "EventSource" ],
-		"vulnerabilities" : [
-			{
-				"atOrAbove" : "1.0.25",
-				"below" : "1.0.28",
-				"severity" : "high",
 
-				"identifiers" : {
-					"summary": "Anti-war message for Russians"
-				},
-				"info" : [ "https://github.com/Yaffle/EventSource/commit/de137927e13d8afac153d2485152ccec48948a7a#diff-9dae829f96bf9c7c32e0769b05b0143d78aafd887990724e7b78db1623451877" ]
-			}
-		],
-		"extractors" : {
-			"uri" : [ "node_modules/EventSource-(§§version§§)/src/eventsource(\\.min)?\\.js" ],
-			"filecontent" : ["  \"version\": \"(§§version§§)\"\\,"]
-		}
-	},
 	"sweetalert2": {
 		"bowername": [ "sweetalert2" ],
 		"vulnerabilities" : [
 			{
 				"atOrAbove" : "11.4.25",
 				"below" : "11.4.30",
-				"severity" : "critical",
+				"severity" : "high",
 
 				"identifiers" : {
 					"summary": "Anti-war message for Russians"
@@ -58,7 +40,6 @@
 			]
 		}
 	},
-
 	"jquery-migrate" : {
 		"vulnerabilities" : [
 			{
