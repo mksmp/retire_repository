@@ -1,17 +1,38 @@
 {
 	"retire-example": {
 		"vulnerabilities" : [
-			{ "atOrAbove": "0.0.1", "below" : "0.0.2", "info" : [ "http://github.com/eoftedal/retire.js/" ] }
+			{ 
+        "atOrAbove": "0.0.1", 
+        "below" : "0.0.2",
+        "identifiers" : {
+					"summary": "template"
+				},
+        "info" : [ "http://github.com/eoftedal/retire.js/" ] 
+      }
 		]
 	},
     "event-source-polyfill": {
 		"vulnerabilities" : [
-			{ "atOrAbove": "1.0.24", "below" : "1.0.27", "info" : [ "http://github.com/eoftedal/retire.js/" ] }
+			{ 
+        "atOrAbove": "1.0.24", 
+        "below" : "1.0.27",
+        "identifiers" : {
+					"summary": "event-source-polyfill"
+				},
+        "info" : [ "http://github.com/eoftedal/retire.js/" ] 
+    }
 		]
 	},
     "es5-ext": {
 		"vulnerabilities" : [
-			{ "atOrAbove": "0.10.54", "below" : "0.10.63", "info" : [ "http://github.com/eoftedal/retire.js/" ] }
+			{ 
+        "atOrAbove": "0.10.54", 
+        "below" : "0.10.63",
+        "identifiers" : {
+					"summary": "es5-ext"
+				},
+        "info" : [ "http://github.com/eoftedal/retire.js/" ] 
+    }
 		]
 	}
 }

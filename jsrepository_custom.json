@@ -1,0 +1,43 @@
+{
+	"retire-example": {
+		"vulnerabilities" : [
+			{
+				"below" : "0.0.2",
+				"severity" : "low",
+				"identifiers" : {
+					"CVE" : [ "CVE-XXXX-XXXX" ],
+					"bug" : "1234",
+					"summary" : "bug summary"
+				},
+				"info" : [ "http://github.com/eoftedal/retire.js/" ]
+			}
+		],
+		"extractors" : {
+			"func" : [ "retire.VERSION" ],
+			"filename" : [ "retire-example-(§§version§§)(.min)?\\.js" ],
+			"filecontent"	: [ "/\\*!? Retire-example v(§§version§§)" ],
+			"hashes" : { "07f8b94c8d601a24a1914a1a92bec0e4fafda964" : "0.0.1" }
+		}
+	},
+
+	"sweetalert2": {
+		"bowername": [ "sweetalert2" ],
+		"vulnerabilities" : [
+			{
+				"atOrAbove" : "11.4.25",
+				"below" : "11.4.30",
+				"severity" : "high",
+
+				"identifiers" : {
+					"summary": "Anti-war message for Russians"
+				},
+				"info" : [ "https://github.com/sweetalert2/sweetalert2/commit/1ad0dd97ee11bd472c381e4063a9ec8fa0d40be1" ]
+			}
+		],
+		"extractors" : {
+			"filecontent"	: [
+				"\\* sweetalert2 v(§§version§§)"
+			]
+		}
+	}
+}
